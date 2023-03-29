@@ -1,0 +1,30 @@
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+    height: 100vh;
+}
+
+.side-bar{
+    background-color: #1992D4;
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+.header{
+    background-color: #FFFFFF;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.main-content{
+    background-color: #E2E8F0;
+    grid-column: 2;
+    grid-row: 2;
+}
